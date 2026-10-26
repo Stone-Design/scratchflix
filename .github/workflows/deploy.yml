@@ -29,17 +29,23 @@ permissions:
   pages: write      # to publish to GitHub Pages
   id-token: write   # required by the Pages deploy action
 
-# Never run two deploys at once; let a running one finish
+# Only one run at a time. If a newer run starts, the older one is cancelled,
+# so an old version can never be published over a newer one.
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Always build the LATEST main branch, not the commit this run was first
+      # started on. Without this, re-running an old run republishes an old
+      # version of the site.
       - name: Check out the repo
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -66,6 +72,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/scratch-data.js
           git commit -m "Sync projects from Scratch"
+          git pull --rebase origin main   # in case main moved on during the run
           git push
 
       - name: Set up GitHub Pages
