@@ -16,7 +16,7 @@
 
 const SITE_CONFIG = {
   // Shown top-left in the navigation bar and in the browser tab
-  siteName: "My Scratch Studio",
+  siteName: "Scratchflix",
 
   // Adds a "see all my projects" link to the footer
   scratchUsername: "BearB2021",

@@ -1,4 +1,4 @@
-# My Scratch Studio
+# Scratchflix
 
 A streaming-style portfolio for Scratch projects. GitHub fetches the projects
 from Scratch every night and publishes the site to GitHub Pages, so a newly

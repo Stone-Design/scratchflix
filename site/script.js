@@ -369,7 +369,7 @@
 
   /* 8. NAVIGATION BAR ---------------------------------------------------- */
   function renderNav(groups) {
-    const name = config.siteName || "My Scratch Studio";
+    const name = config.siteName || "Scratchflix";
     els.brand.textContent = name;
     document.title = name;
 
