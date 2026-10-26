@@ -2,8 +2,993 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": null,
+  "syncedAt": "2026-10-26T21:27:00.409Z",
   "username": "BearB2021",
-  "rows": [],
-  "projects": {}
+  "rows": [
+    {
+      "name": "New Releases",
+      "source": "newest",
+      "projectIds": [
+        "1395598364",
+        "1395291060",
+        "1395290659",
+        "1395290092",
+        "1394642238",
+        "1392878162",
+        "1392055649",
+        "1391929186",
+        "1391586465",
+        "1390183704"
+      ]
+    },
+    {
+      "name": "Most Loved",
+      "source": "mostLoved",
+      "projectIds": [
+        "1375276905",
+        "1365677306",
+        "1352989181",
+        "1352846471",
+        "1351682722",
+        "1351403312",
+        "1391929186",
+        "1378291672",
+        "1376557115",
+        "1375890484"
+      ]
+    },
+    {
+      "name": "All Projects",
+      "source": "all",
+      "projectIds": [
+        "1395598364",
+        "1395291060",
+        "1395290659",
+        "1395290092",
+        "1394642238",
+        "1392878162",
+        "1392055649",
+        "1391929186",
+        "1391586465",
+        "1390183704",
+        "1387769784",
+        "1387752935",
+        "1387492385",
+        "1387071826",
+        "1384231633",
+        "1383045551",
+        "1382145998",
+        "1381816818",
+        "1381039709",
+        "1380667253",
+        "1380658925",
+        "1380237226",
+        "1379832867",
+        "1378555185",
+        "1378549622",
+        "1378499177",
+        "1378291672",
+        "1378289132",
+        "1378028277",
+        "1377312245",
+        "1377199446",
+        "1376989090",
+        "1376863249",
+        "1376861109",
+        "1376563599",
+        "1376557115",
+        "1376360737",
+        "1376144306",
+        "1375995214",
+        "1375894263",
+        "1375892550",
+        "1375890484",
+        "1375282785",
+        "1375276905",
+        "1375089485",
+        "1374796630",
+        "1374788578",
+        "1374741721",
+        "1374735770",
+        "1374548976",
+        "1370414402",
+        "1370140300",
+        "1369944442",
+        "1369575459",
+        "1369400238",
+        "1369374231",
+        "1367616277",
+        "1367574733",
+        "1367571543",
+        "1367411184",
+        "1367201862",
+        "1366965241",
+        "1366958560",
+        "1366791136",
+        "1366085907",
+        "1366079165",
+        "1365868517",
+        "1365739170",
+        "1365677306",
+        "1365527916",
+        "1365526107",
+        "1365522141",
+        "1365514925",
+        "1365000869",
+        "1363625939",
+        "1362970347",
+        "1362562131",
+        "1352989181",
+        "1352987482",
+        "1352986529",
+        "1352859581",
+        "1352857390",
+        "1352854950",
+        "1352851041",
+        "1352846471",
+        "1352843753",
+        "1352842790",
+        "1352841986",
+        "1352839496",
+        "1352797963",
+        "1352796167",
+        "1352788019",
+        "1352669999",
+        "1352669401",
+        "1352666910",
+        "1351682722",
+        "1351462321",
+        "1351405780",
+        "1351403312",
+        "1351241059",
+        "1331757383",
+        "1331755952",
+        "1296818065",
+        "1296816619",
+        "1272677385"
+      ]
+    }
+  ],
+  "projects": {
+    "1272677385": {
+      "title": "BBC IPLAYER Sting",
+      "instructions": "1. Click the \"EXAMPLE\" text and replace it with your own name!\n2. The gradient background and the colour of the BBC name and caption can be recoloured.\n3. Replace the globe graphic with a graphic of your choice!",
+      "notes": "Credit To SuperPac13 For The Orignal Project\n\nThis Was My First Ever Project On Scratch",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1272677385_480x360.png",
+      "author": "",
+      "shared": "2026-01-29T16:02:35.000Z"
+    },
+    "1296816619": {
+      "title": "Brody Games Ltd Endcap 2026",
+      "instructions": "Used For TV Shows Made By Brody Games LTD",
+      "notes": "Credit To TehScarlettSpartan For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1296816619_480x360.png",
+      "author": "",
+      "shared": "2026-03-28T16:49:51.000Z"
+    },
+    "1296818065": {
+      "title": "Brody Games LTD Global Entertainment Endcap 2026",
+      "instructions": "Same Thing But Global Entertainment From Around The World",
+      "notes": "Credit To TehScarlettSpartan For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1296818065_480x360.png",
+      "author": "",
+      "shared": "2026-03-28T16:53:38.000Z"
+    },
+    "1331755952": {
+      "title": "ITV Global Ident 2026-Present",
+      "instructions": "Cilck The Flag For A New ITV Ident",
+      "notes": "Credit To maratyafasov For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1331755952_480x360.png",
+      "author": "",
+      "shared": "2026-06-14T15:18:17.000Z"
+    },
+    "1331757383": {
+      "title": "Old LG Scenic Lift, Logic Replaced By Lester Controls At The Beckett Apartments ScratchTown",
+      "instructions": "This Is The Lift At The Beckett Apartments ScratchTown, It Used To Be A Old LG Lift, The Logic Has Been Replaced By Lester Controls\n\nI Made The Lester Controls TFT Indicator Into DAC Clearview TFT Indicator Version Of It",
+      "notes": "Credit To TRT2011 For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1331757383_480x360.png",
+      "author": "",
+      "shared": "2026-06-14T15:28:10.000Z"
+    },
+    "1351241059": {
+      "title": "Digital Advanced Newer Lift Voice SoundBoard",
+      "instructions": "Click All Of The Sounds From Digital Advanced Newer Lift Voice",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To dj-caban For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1351241059_480x360.png",
+      "author": "",
+      "shared": "2026-07-04T09:53:22.000Z"
+    },
+    "1351403312": {
+      "title": "80s Express Lift Modded By Generic With DAC Lift At Scratch Shopping Mall Car Park",
+      "instructions": "This Used To Be A 1990s Express Lift But It Got Modded By Generic With Digital Advanced Control Logic\n\nFun fact: This project has Scratch's first and likely only DAC dot matrix indicator with accurate scrolling numbers and arrows. And yes, I reused the cab, shaft, cables, counterweight and open-close pointer thing \nI Also Changed The Voice Unit In The Lift To DAC Female V3",
+      "notes": "Credit To Numberboy9 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1351403312_480x360.png",
+      "author": "",
+      "shared": "2026-07-05T08:52:22.000Z"
+    },
+    "1351405780": {
+      "title": "Temple Lifts At Scratch Shopping Mall Car Park",
+      "instructions": "This Is Lift 2 At Scratch Shopping Mall Car Park \nLift Information\nDoor Type,Telescopic \nLogic, Lester Controls\nPushButtons, Dewhurst US91-EN\nCompeny, Temple Lifts\nFloors,0,1,2,3,4,5\nIndicaters, Lester Controls TFT\nVoice Lester Controls Female",
+      "notes": "Credit To Abr4045_Spammm For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1351405780_480x360.png",
+      "author": "",
+      "shared": "2026-07-05T09:04:41.000Z"
+    },
+    "1351462321": {
+      "title": "Digital Advanced Zeta Voice Rare Messages",
+      "instructions": "Hello Everyone, This Is The DAC Zeta Voice Rare Messages That I Found",
+      "notes": "Credit To Beno For The M & UG Voice\nCredit To numberboy9 For The Floor 9 Voice",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1351462321_480x360.png",
+      "author": "",
+      "shared": "2026-07-05T16:19:32.000Z"
+    },
+    "1351682722": {
+      "title": "90s ALS Lift Modded By Titan Lifts At Scratch Shopping Mall",
+      "instructions": "This ALS was built in 1990s along with the food court it’s self. This lift is from the LM, UM to the Food court. It was refurbished in 2006 with a dewhurst indicator and fixtures. In 2016 it broke down for 2 years and lester controls decided to fully replace it sadly. If you dont understand the indicator LM is for Lower Mall Shops, UM is for Upper Mall Shops and FC is for the Food Court",
+      "notes": "Credit To BRallFan For The Orignal Project\nCredit To Jon5432 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1351682722_480x360.png",
+      "author": "",
+      "shared": "2026-07-06T16:27:33.000Z"
+    },
+    "1352666910": {
+      "title": "Catchphrase Series 11-13 Bell Sound Effect",
+      "instructions": "This Is The 1994 Catchphrase Bell When Roy Walker Hosted The Show, It Was During The Catchphrases, The Bell Means You Need To Buzz In",
+      "notes": "",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352666910_480x360.png",
+      "author": "",
+      "shared": "2026-07-10T16:43:06.000Z"
+    },
+    "1352669401": {
+      "title": "ILE Skycomms Chimes",
+      "instructions": "ILE Skycomms Chimes",
+      "notes": "Credit To numberboy9 For The Sounds",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352669401_480x360.png",
+      "author": "",
+      "shared": "2026-07-10T16:55:51.000Z"
+    },
+    "1352669999": {
+      "title": "ILE Skycomms Female V3 Voice",
+      "instructions": "",
+      "notes": "Credit To numberboy9 For The Voice Messages",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352669999_480x360.png",
+      "author": "",
+      "shared": "2026-07-10T17:01:57.000Z"
+    },
+    "1352788019": {
+      "title": "Refubished Otis Gen2 Lift At The Bear Inn Hotel",
+      "instructions": "This Is The Lift At The Apartment, It Is A Refubished Otis Gen2 Lift With A New TFT Indicator, New Landing Arrows, It Also Got A Refubished Landing Indicator, The Old Buttons Are Still There\n\nWARNING: Using the staircase can be glitchy if the lift is in use",
+      "notes": "Credit To vestalift1574 For Orignal Project\nCredit To Jon5432 For Also For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352788019_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T08:10:11.000Z"
+    },
+    "1352796167": {
+      "title": "Temple Staff Only Lift At M&S At Scratch Shopping Mall",
+      "instructions": "Guys Just To Let You Know The Voice Does Not Say Loading Bay Floor, So Sorry I Can't Change The Voice\nAnd The Voice Gets It's Floors Mixed Up",
+      "notes": "Credit To groupsh For The Orignal Project\nCredit To Abr4065_Spammm For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352796167_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T09:11:52.000Z"
+    },
+    "1352797963": {
+      "title": "Broken UK LIFT At M&S Scratch Shopping Mall",
+      "instructions": "Well There You Have It, The Original UK LIFT Is Now Gone And Being Modded Into Stannah, This UK LIFT Was Installed In 2007 With Digital Lift Controls Voice And Dewhurst Indicator, Well Since The Store Had A Refubishment The Lift Is Now A Modern Stannah With A TFT Indicator, New Dewhurst Buttons\n\nRIP UK LIFT 2007-2026",
+      "notes": "Credit To sock1234709 For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352797963_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T09:24:31.000Z"
+    },
+    "1352839496": {
+      "title": "Lifty Lift Services At Boots Scratch Shopping Mall",
+      "instructions": "This Is The Lift In Boots Scratch Shopping Mall,\nBasemant Is Boots Opticians\nGround Floor Is Boots Sales, Heath And Beauty \nFirst Floor Is Boots Hearingcare \nSecond Floor Is Staff Only",
+      "notes": "Credit To tonyzhi For The Orignal Project \nCredit To Jon5432 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352839496_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T14:37:01.000Z"
+    },
+    "1352841986": {
+      "title": "Oits Gen2 Lift At Tkmaxx Scratch Shopping Mall",
+      "instructions": "This lift is boring and has no character.",
+      "notes": "Credit To EddyandKremitStudios And BalRailfan For The Orignal Project\nCredit To Jon5432 And BRailFan For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352841986_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T14:55:01.000Z"
+    },
+    "1352842790": {
+      "title": "Stannah Lift At Sports Direct Scratch Shopping Mall",
+      "instructions": "This Is The Stannah Lift At Sports Direct",
+      "notes": "Credit To Abr4065_Spammm For The Orignal Project\nCredit To Jon5432 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352842790_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T15:03:24.000Z"
+    },
+    "1352843753": {
+      "title": "Oakland Lift At NEXT Scratch Shopping Mall",
+      "instructions": "Story: In 2008, An Oakland Elevator Has Been Installed.\nWhen The Lift Was Put In Service, The Lift Was Working On Its First Day.\nAs Oakland Elevators Is Obviously Fixed, Stentorgate Controls Really Wanted To Mod This Lift.\nBut Ever Since, Stentorgate Controls Never Got To The Point Of Modding This Oakland.\nThe Lift Was Working For So Long That Its Completely Fixed And At Any Moment This Elevator…",
+      "notes": "Credit To Abr4065_Spammm For The Orignal Project\n\nCredit To Jon5432 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352843753_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T15:09:28.000Z"
+    },
+    "1352846471": {
+      "title": "KONE EcoDisc Lift At Fenwick Scratch Shopping Mall",
+      "instructions": "A nice 2nd generation EcoDisc",
+      "notes": "Credit To Jon5432 For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352846471_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T15:27:47.000Z"
+    },
+    "1352851041": {
+      "title": "Keighley Lift Modded By Otis Lift To Cinema At Scratch Shopping Mall",
+      "instructions": "If You Don't Understand The Indicator \"C\" Is For Cinema\n\"M\" Is For Mall\nThis Used To Be A Keighley Lift In 1990s When The Shopping Mall Opened, It Used To Go Up To Debenhams, The Orignal Lift Used To Have A Dewhurst Indicator With Keighley Buttons, In 2018 The Lift Was Modded By Oits Lift With Lester And The Former Debenhams Unit Was Refubished Into A Cinema",
+      "notes": "Credit To Abr4065_Spammm For The Orignal Project\n\nhttps://scratch.mit.edu/projects/1352989181 This Is The Orignal Keighley Lift Going Up To Debenhams",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352851041_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T16:03:24.000Z"
+    },
+    "1352854950": {
+      "title": "Otis Gen2 With Refubished Indicator At Tesco Scratch Shopping Mall",
+      "instructions": "The Otis Gen2 Lift Indicator Text Font Has Been Refubished, This Is The Lift To The Car Park https://scratch.mit.edu/projects/1365000869",
+      "notes": "Credit To amongplayer2021pro For The Orignal Project\nCredit To Jon5432 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352854950_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T16:39:41.000Z"
+    },
+    "1352857390": {
+      "title": "Pickerings Lift At TGJones Scratch Shopping Mall",
+      "instructions": "TGJones Is Moving To ScratchTown Retail Park And The Former Unit Will Be Covented Into 2 New Units\nEE Will Be On The Upper Floor\nAnd Superdrug Will Be On The Lower Floor\nSo During The Building Works The Lift Will Be Demolished",
+      "notes": "WE HAVE MOVED! \n\nTGJones is now open at ScratchTown Retail Park\n\nThank you for shopping with us at Scratch Shopping Mall since 1990. We are excited to welcome you to our brand-new, modern store just a short distance away!\n\nOur New Address:\n\nTGJones, Unit 3000, ScratchTown Retail Park, TN7 LP9\n\nOpening Hours:\n\nMon - Sat: 8:00 AM - 6:30 PM\n\nSun: 9:00 AM - 5:00 PM\nCredit To LuckyLucky7 And user12345…",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352857390_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T16:53:18.000Z"
+    },
+    "1352859581": {
+      "title": "Scratch Shopping Mall Opening Hours",
+      "instructions": "This Is The Opening Hours For Scratch Shopping Mall",
+      "notes": "",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352859581_480x360.png",
+      "author": "",
+      "shared": "2026-07-11T17:08:55.000Z"
+    },
+    "1352986529": {
+      "title": "Otis 2000 VF Modded By Emerald Elevators (Odd Floors) At Scratch Road Car Park",
+      "instructions": "Lift to levels 1, 3, 5, 7, 9 & 11\n\nThis was a nice Otis 2000 VF installed in 1996 for a good 28 years. Sadly in 2024 it got modded by Emerald Elevators This is a fictional version of the real-life lift with a different logic, Schindler hybrid voice (Schindler Claire for the floor announcements And Schindler Eurolift For Other Messages\n\nScratch Road Car Park Is A Car Park Which Is A 5 Min Walk Fro…",
+      "notes": "Credit To numberboy9 For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352986529_480x360.png",
+      "author": "",
+      "shared": "2026-07-12T07:56:11.000Z"
+    },
+    "1352987482": {
+      "title": "Oits 2000 VF Modded By Emerald Elevators (Even Floors) At Scratch Road Car Park",
+      "instructions": "Lift to levels 1, 2, 4, 6, 8, 10 & 12\n\nThis was a nice Otis 2000 VF installed in 1996 for a good 28 years. Sadly in 2024 it got modded by Emerald Elevators \n This is a fictional version of the real-life lift with a different logic, Schindler hybrid voice (Schindler Claire for the floor announcements and Eurolift voice for other messages)",
+      "notes": "Credit To numberboy9 For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352987482_480x360.png",
+      "author": "",
+      "shared": "2026-07-12T08:00:54.000Z"
+    },
+    "1352989181": {
+      "title": "Very Knacked Keighley Lift To Debenhams At Scratch Shopping Mall",
+      "instructions": "This Is The Orignal Lift That Used To Go Up To Debenhams, During The 1990s When The Shopping Centre Opened, But Sadly Debenhams Closed Down In 2017 And The Lift Was Out Of Service For 3 Weeks, Then In 2018 The Lift Was Modded By Otis With Lester, In 2017 The Old Former Debenhams Unit Was Refubished Into A Cinema, The Lift There Had It's Floor Numbering Replaced In 2018 \"C\" Is For Cinema \"M\" Is Fo…",
+      "notes": "Credit To BrailFan For The Orignal Project\nhttps://scratch.mit.edu/projects/1352851041/ This Is The Modded Otis Lift With Lester, Going Up To The Cinema",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352989181_480x360.png",
+      "author": "",
+      "shared": "2026-07-12T08:27:23.000Z"
+    },
+    "1362562131": {
+      "title": "Sky On Demand Ident 2018",
+      "instructions": "This Is The Sky On Demand Ident 2018 \nI Changed The Text From Sky.com/ondemand To On Demand",
+      "notes": "Credit To Logoboy68 For The Orignal Project \nCredit To chooks123 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1362562131_480x360.png",
+      "author": "",
+      "shared": "2026-07-16T11:31:59.000Z"
+    },
+    "1362970347": {
+      "title": "Otis 2000 VF Side Lift Modded By Temple Lifts At Scratch Shopping Mall",
+      "instructions": "This Lift Used To Be A Otis 2000 VF But It's Been Modded By Temple Lifts With Lester Controls It Now Only Serve 3 Floors Now, LM,UM And FC The Orignal Otis 2000 VF Lift I Made Got Deleted Due To It Being A Copy Of Someone Else's Project When I Credit Then, Now Anyways Enjoy The Project",
+      "notes": "Credit To Abr4065_Spammm For The Orignal Project\nThe Orignal Otis 2000 VF Lift Used To Serve 5 Floors, The Basement Car Park Floors Had Been Demolished To Make Way For 25 Shopping Units Coming Soon",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1362970347_480x360.png",
+      "author": "",
+      "shared": "2026-07-18T09:00:45.000Z"
+    },
+    "1363625939": {
+      "title": "Grotty Digital Lift Controls Lift At B&M Scratch Shopping Mall",
+      "instructions": "In The 1990's B&M Wanted To Move Into The Unit However No Anchor Store Spaces We're Built At This Shopping Center. A Proposal Was Made To Put Down Some Anchor Store Spaces Below The Main Floor Of The Shopping Center And Later On It Was Approved. With That, B&M Moved Into The Shopping Center As One Of The 2 Anchor Stores In The Center And With That Also Came A Keighley-Schinder Elevator That Was I…",
+      "notes": "Credit To Greenleaves360 For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1363625939_480x360.png",
+      "author": "",
+      "shared": "2026-07-21T16:11:38.000Z"
+    },
+    "1365000869": {
+      "title": "DLC (Digital Lift Controls) Lift At Tesco Car Park Scratch Shopping Mall",
+      "instructions": "This Is The Lift To Tesco Car Park At Scratch Shopping Mall, It Is A Digital Lift Controls Lift, This Is The Main Oits Gen 2 Lift \nhttps://scratch.mit.edu/projects/1352854950/",
+      "notes": "Credit To Carreiga For The Orignal Project\nCredit To Jon5432 For Also The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365000869_480x360.png",
+      "author": "",
+      "shared": "2026-07-28T08:51:27.000Z"
+    },
+    "1365514925": {
+      "title": "90s Evans LIft At TGJones (WHSmith) Scratch Shopping Mall",
+      "instructions": "This Is An Old Evans Lift With An Old Motor That Makes a Lovely Whiring Noise.\nThis Is The Orignal 1990s Evans LIft At TGJones (WHSmith) But In 2024 It Got Modded By Pickerings Lift With Digital Advanced, Link To The Modded Lift\nhttps://scratch.mit.edu/projects/1352857390/\n\nFor @greenleaves360",
+      "notes": "Credit To BrailFan For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365514925_480x360.png",
+      "author": "",
+      "shared": "2026-07-30T15:41:26.000Z"
+    },
+    "1365522141": {
+      "title": "Sky Rebrand 2026 Logo Concepts",
+      "instructions": "This Is The Sky Rebrand 2026 Logo Concepts, Sky Q Has Been Changed To Sky Digital",
+      "notes": "Credit To AlfieMania For The Original Project\nCredit To WeAreE1 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365522141_480x360.png",
+      "author": "",
+      "shared": "2026-07-30T16:22:58.000Z"
+    },
+    "1365526107": {
+      "title": "Cbeebies Studios Logo Concepts",
+      "instructions": "This Is The Cbeebies Studios Logo Concepts\n2002-Present\n2021-Present\n2023-Present",
+      "notes": "Credit To furbyx12 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365526107_480x360.png",
+      "author": "",
+      "shared": "2026-07-30T16:40:36.000Z"
+    },
+    "1365527916": {
+      "title": "ITV Digital Logo Concepts",
+      "instructions": "Here's what ITV Digital looks like if it never entered into administration and shutted down in 2002.\n\nI Also Redesigned The ITV Digital Logo If It Was Used In 2026",
+      "notes": "Credit To ThatGreenRabbit For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365527916_480x360.png",
+      "author": "",
+      "shared": "2026-07-30T16:51:35.000Z"
+    },
+    "1365677306": {
+      "title": "ITV 2022 Logo Concepts",
+      "instructions": "This Is The ITV Logo Concepts Which What Will The Logos Will Look Like In The Future",
+      "notes": "Credit To youtube3200 For The Orignal Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365677306_480x360.png",
+      "author": "",
+      "shared": "2026-07-31T09:49:40.000Z"
+    },
+    "1365739170": {
+      "title": "Lester Controls TFT Indicator Font (Free To Use)",
+      "instructions": "This Is The Lester Controls TFT Indicator Font Which Is Free To Use For All",
+      "notes": "You Can Use This Font For Your Elevator Projects",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365739170_480x360.png",
+      "author": "",
+      "shared": "2026-07-31T16:06:35.000Z"
+    },
+    "1365868517": {
+      "title": "Otis 2000 VF Modded By Lift-O-Matic At Scratch Shopping Mall Food Court",
+      "instructions": "The Lift Goes To The Food Court, G Is Shops\nLG Is Food Court\nHere's The History Of The Food Court At Scratch Shopping Mall\nIn 1990 The Food Court Was Built On The Ground Floor With Resturants Like MCDonald's, KFC And More\nIn 2006 The Food Court Had A Horrific Fire Destorying It And The Lift, The Lift Used To Be A 2004 Otis 2000 VF Lift\nWhen It Got Destoryed By The Fire Back Then, In 2018 The Lift…",
+      "notes": "Credit To numberboy9 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1365868517_480x360.png",
+      "author": "",
+      "shared": "2026-08-01T08:36:02.000Z"
+    },
+    "1366079165": {
+      "title": "Temple Lifts At HMV Scratch Shopping Mall",
+      "instructions": "This Is The Lift At HMV Which Goes To LG, Lower Ground Sales, UG, Upper Ground Sales\n1, Staff Only",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1366079165_480x360.png",
+      "author": "",
+      "shared": "2026-08-02T15:56:26.000Z"
+    },
+    "1366085907": {
+      "title": "Challenge TV 2016 Logo Vecter",
+      "instructions": "You Can Remix It And Make It A Logo Concept",
+      "notes": "Credit For jdw07 For Both Original Projects",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1366085907_480x360.png",
+      "author": "",
+      "shared": "2026-08-02T16:52:09.000Z"
+    },
+    "1366791136": {
+      "title": "OTIS Gen 2 Scenic Lifts At House Of Fraser Scratch Shopping Mall",
+      "instructions": "Credit To jc401400 For The Orignal Project\nCredit To Jon5432 Also For The Original Project",
+      "notes": "On The Stuck Sign If You Don't Understand SSM Is Scratch Shopping Mall, The Floors Are In This Lift\nP1 And P2 Are Lower Car Park Levels, (Not The Old Former Basement Car Park) LG,G,1,2 Are Sales Levels\n3 Is Upper Car Park, R Is Rooftop Car Park",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1366791136_480x360.png",
+      "author": "",
+      "shared": "2026-08-05T15:39:31.000Z"
+    },
+    "1366958560": {
+      "title": "Stannah Platform Lift With DAC At Currys Scratch Shopping Mall",
+      "instructions": "Nice Stannah Platform Lift With Digital Advanced",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1366958560_480x360.png",
+      "author": "",
+      "shared": "2026-08-06T07:36:42.000Z"
+    },
+    "1366965241": {
+      "title": "Oakland Lift Modded By Jackson Lift At NEXT Scratch Shopping Mall",
+      "instructions": "This Lift Used To Be A Oakland Lift Installed In 2008 \nThen The Lift Got Modded In 2024 By Jackson Lifts With Digital Advanced",
+      "notes": "Credit To sachathescratcher For The Original Project\nCredit To Jon5432 For Also The Original Project\nThis Is What The Original Lift Used To Look Like\nhttps://scratch.mit.edu/projects/1352843753/",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1366965241_480x360.png",
+      "author": "",
+      "shared": "2026-08-06T08:17:09.000Z"
+    },
+    "1367201862": {
+      "title": "Lester Controls Old And New Voice + Chimes",
+      "instructions": "The Voice And Chimes Are Free To Use",
+      "notes": "Credit To All Of These Who Own The Voice/Chime Sounds",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1367201862_480x360.png",
+      "author": "",
+      "shared": "2026-08-07T09:05:19.000Z"
+    },
+    "1367411184": {
+      "title": "Old Lift Modded By Lift Specialists Ltd At Superdry Scratch Shopping Mall",
+      "instructions": "The Floors In This Lift Are\nG Men And Women\n1 Kidswear \n2 Staff Only \nThis Used To Be A Old Lift With Drucegrove Logic In 2006, Then In 2018 Lift Specialists Ltd Modded The Lift  \nWith A White Otis LCD Indicator, And The Lester Controls Voice Unit",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1367411184_480x360.png",
+      "author": "",
+      "shared": "2026-08-08T09:29:48.000Z"
+    },
+    "1367571543": {
+      "title": "Otis Gen 2 Lift At H&M Scratch Shopping Mall",
+      "instructions": "This Is Lift At H&M Scratch Shopping Mall\nIt Is A Otis Gen 2 \n-1 Is H&M Kids\nG Is Men And Women\n1 Is Home And Beauty",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1367571543_480x360.png",
+      "author": "",
+      "shared": "2026-08-09T08:40:17.000Z"
+    },
+    "1367574733": {
+      "title": "TVC Platform Lift At B&M Scratch Shopping Mall",
+      "instructions": "This Is The Other Lift At B&M Scratch Shopping Mall That Also Goes Up To The Sale Floors",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1367574733_480x360.png",
+      "author": "",
+      "shared": "2026-08-09T09:13:00.000Z"
+    },
+    "1367616277": {
+      "title": "Stannah Lift At Clarks Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Clarks \nThe Floors Are \nG Is Women And Men Shoes And Clothing\n1 Is Kids Shoes And Accessories",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1367616277_480x360.png",
+      "author": "",
+      "shared": "2026-08-09T15:00:13.000Z"
+    },
+    "1369374231": {
+      "title": "(50TH PROJECT SPECIAL) Lift Specialists Side Lift At Scratch Shopping Mall",
+      "instructions": "G Is Food Court \n1 Is Lower Mall\n2 Is Upper Mall",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1369374231_480x360.png",
+      "author": "",
+      "shared": "2026-08-17T14:55:30.000Z"
+    },
+    "1369400238": {
+      "title": "Grotty Otis Lift At Sainsbury's Scratch Shopping Mall",
+      "instructions": "This Lift Is A Otis Lift Which Is Grotty Because Of The Graffiti On The Doors And Cab, Anyways The Floors In This Lift Are\nG Grocery, TU And Starbucks\n1 Is Home, Toys, Argos\n2 Is Car Park",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1369400238_480x360.png",
+      "author": "",
+      "shared": "2026-08-17T17:17:04.000Z"
+    },
+    "1369575459": {
+      "title": "Bennie Lift Modded By Nova Lifts At Urban Outfitters Scratch Shopping Mall",
+      "instructions": "This Used To Be A Bennie Lift When It Was Topman Topshop, But When Urban Outfitters Opened The Lift Got Replaced By Nova Lifts With The Stentorgate Voice And Logic With A Custom TFT Indicator, 2 Of The Original Buttons Are Still There",
+      "notes": "Credit To BRailFan For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1369575459_480x360.png",
+      "author": "",
+      "shared": "2026-08-18T09:34:26.000Z"
+    },
+    "1369944442": {
+      "title": "TECNO Lift At McDonald's Scratch Shopping Mall",
+      "instructions": "This Is The Lift At McDonald's \nG Is Downstairs Seating And Order Screens And Collection Point\nM Is Upstairs Seating",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1369944442_480x360.png",
+      "author": "",
+      "shared": "2026-08-19T16:16:55.000Z"
+    },
+    "1370140300": {
+      "title": "What If TLC Used The 2026 Logo In Style Of The Old Logo",
+      "instructions": "This Is A Logo Concept, If You Think TLC Should Have This Logo, Then Comment Down Below And Tell Us Why",
+      "notes": "Credit To WeAreE1 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1370140300_480x360.png",
+      "author": "",
+      "shared": "2026-08-20T08:51:39.000Z"
+    },
+    "1370414402": {
+      "title": "Keighley Lift Modded By Temple Lift At The Sports Centre Scratch Shopping Mall",
+      "instructions": "G-2 are Leisure Centre Floors, 3-5 Are Car Parks\nThis Used To Be A 1990s Keighley Lift Then It Got Modded In 2017 By Temple Lifts",
+      "notes": "Credit To numberboy9 For The Original Project\nCredit To Windows_10_2nd For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1370414402_480x360.png",
+      "author": "",
+      "shared": "2026-08-21T08:11:23.000Z"
+    },
+    "1374548976": {
+      "title": "Schindler Miconic Lift Modded By Generic Lift At NCP Car Park Near Scratch Shopping Mall",
+      "instructions": "This Is To Lift At NCP Car Park Near Scratch Shopping Mall, It Is A Generic Lift With Stentorgate Logic And Indicator, There Used To Be 1984 Schindler Miconic Lifts But They Been Modded In 2015, The Original Landing Indicators Are Still There",
+      "notes": "Credit To greenleaves360 For The Original Project\nCredit To numberboy9 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1374548976_480x360.png",
+      "author": "",
+      "shared": "2026-08-23T15:51:48.000Z"
+    },
+    "1374735770": {
+      "title": "Otis Gen2 Lift At John Lewis Scratch Shopping Mall",
+      "instructions": "This Is The Lift At John Lewis Scratch Shopping Mall\n-1 Is Car Park \nG,1,2,3,4,5 Are Sales Floors\n6 Is Rooftop Car Park",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1374735770_480x360.png",
+      "author": "",
+      "shared": "2026-08-24T11:32:45.000Z"
+    },
+    "1374741721": {
+      "title": "Otis Gen 2 Modded By Temple Lift At Wilko Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Wilko Scratch Shopping Mall \nG And 1 Are Sales Levels\nIt Used To Be A Otis Gen2 But It Modded By Temple Lifts",
+      "notes": "Credit To Abr4065_Spammm For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1374741721_480x360.png",
+      "author": "",
+      "shared": "2026-08-24T11:56:13.000Z"
+    },
+    "1374788578": {
+      "title": "Generic Lift At Scratch South Train Station Platform 1 & 2",
+      "instructions": "This Is The Lift At Scratch South Train Station Platform 1 & 2\nIgnore The Floor Directory On The Car Because It Is Wrong, So M Is Street Level, LG Is Platform Level\nIt Is A Unknown Lift, Because I Have No Idea Who Maintenance This Lift",
+      "notes": "Credit To numberboy9 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1374788578_480x360.png",
+      "author": "",
+      "shared": "2026-08-24T15:16:19.000Z"
+    },
+    "1374796630": {
+      "title": "UK LIFT Modded By Stannah Lift At M&S Scratch Shopping Mall",
+      "instructions": "This Is The Lift At M&S Scratch Shopping Mall\nIt Used To Be A UK LIFT Installed In 2007 But It Got Modded By Stannah In 2023 After The Store Had A Refubishment\nThere Used To Be A Second Floor But After The Store Had A Refubishment The Second Floor Is Closed Off And Being A Staff Area\n-1 Is Click And Collect\n0 Is Food Hall\n1 Is Clothing\nThere Used To Be The Car Park Floor On -1 But Since The Store…",
+      "notes": "Credit To BRailFan For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1374796630_480x360.png",
+      "author": "",
+      "shared": "2026-08-24T16:05:10.000Z"
+    },
+    "1375089485": {
+      "title": "Kleemann Lift At Scratch Shopping Mall Bus Station",
+      "instructions": "This Is The Lift At Scratch Shopping Mall Bus Station, So How To Get There So Outside The Entrance There Is A Bridge Going To The Bus Station Which Is 7 Min Walk Away\nFloor G Is Exit To Station Road\nFloor 1 Is Bus Station Platform",
+      "notes": "Credit To Abr4065_Spammm For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375089485_480x360.png",
+      "author": "",
+      "shared": "2026-08-25T16:42:04.000Z"
+    },
+    "1375276905": {
+      "title": "OTIS 2000 VF Lift At Scratch Shopping Mall Food Court",
+      "instructions": "Well This Is The Original Otis 2000 VF Lift At Scratch Shopping Mall Food Court, This Was Built In 2004, And Since The Food Court On The Ground Floor Was On Fire In 2006 The Lift Was Destoryed, And Since The Fire Was Put Out The Lift Was Rebuilt In 2009, Then The Otis 2000 VF Lift Got Modded By Lift-O-Matic In 2018 With ILE Skycomms \nFloor G Is Food Court \nFloor 1 Is Shops Level",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375276905_480x360.png",
+      "author": "",
+      "shared": "2026-08-26T08:07:58.000Z"
+    },
+    "1375282785": {
+      "title": "4KIDS Logo Concept",
+      "instructions": "What If Channel 4 Launched A New Channel Called 4KIDS From 5am-7pm \n4KIDS Block On Channel 4 Will Start From 6:30am-11am",
+      "notes": "Credit To SuperPac13 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375282785_480x360.png",
+      "author": "",
+      "shared": "2026-08-26T08:40:54.000Z"
+    },
+    "1375890484": {
+      "title": "Temple Lift At ASDA Scratch Shopping Mall",
+      "instructions": "This Is The Lift At ASDA Scratch Shopping Mall \nG Is Grocery \nM Is George Clothing, Click And Collect\n1 Is Home, Toys And Stationary",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375890484_480x360.png",
+      "author": "",
+      "shared": "2026-08-28T09:03:15.000Z"
+    },
+    "1375892550": {
+      "title": "Oakland Lift At JD Sports Scratch Shopping Mall",
+      "instructions": "This Is The Lift At JD Sports Scratch Shopping Mall It Is A Oakland Lift With The Generic Advanced Voice, But For Some Reason When The Lift Arrives At The Floor The Voice Say The Floor 2 Times I Don't Know Why",
+      "notes": "Credit To BRailFan For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375892550_480x360.png",
+      "author": "",
+      "shared": "2026-08-28T09:18:15.000Z"
+    },
+    "1375894263": {
+      "title": "KONE EcoDisc Lift At Premier Inn Upper Station Road Near Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Premier Inn Upper Station Road, Which Is 15 Min Away From Scratch Shopping Mall\n-1 Is Car Park\nG Is Reception \n1,2,3,4,5,6 Is Hotel Rooms",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375894263_480x360.png",
+      "author": "",
+      "shared": "2026-08-28T09:27:24.000Z"
+    },
+    "1375995214": {
+      "title": "Otis Gen 2 Life Lift At Primark Scratch Shopping Mall",
+      "instructions": "LM Is Men, Kids And Primark Home\nUM Is Women, Bags And Click And Collect",
+      "notes": "Credit To greenleaves360 For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1375995214_480x360.png",
+      "author": "",
+      "shared": "2026-08-28T16:51:06.000Z"
+    },
+    "1376144306": {
+      "title": "Lift Specialists Ltd Side Lift At Scratch Shopping Mall",
+      "instructions": "This Is The Side Lift At Scratch Shopping Mall It Is Lift Specialists Ltd, It's Got Digital Lift Controls With A Otis LCD White Indicator (Same Indicator As The Lift In Superdry)",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376144306_480x360.png",
+      "author": "",
+      "shared": "2026-08-29T08:04:53.000Z"
+    },
+    "1376360737": {
+      "title": "Digital Lift Controls Voice Soundbored",
+      "instructions": "Click All Of The Sounds From Digital Lift Controls Voice\n\nFree To Use As Long You Credit Me",
+      "notes": "Credit To Abr4065_Spammm For The Voice Sounds",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376360737_480x360.png",
+      "author": "",
+      "shared": "2026-08-30T12:24:27.000Z"
+    },
+    "1376557115": {
+      "title": "(70TH PROJECT SPECIAL) 90s Stannah Lift At Waterstones Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Waterstones Scratch Shopping Mall\nIt Is A 90s Stannah With A Dewhurst Indicator And Fixtures",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376557115_480x360.png",
+      "author": "",
+      "shared": "2026-08-31T08:18:36.000Z"
+    },
+    "1376563599": {
+      "title": "Old KONE At Waitrose Scratch Shopping Mall (Car Park Lift)",
+      "instructions": "This Is The Lift At Waitrose Car Park Scratch Shopping Mall, It Is A Old KONE Lift With The Old Stannah Voice",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376563599_480x360.png",
+      "author": "",
+      "shared": "2026-08-31T08:55:27.000Z"
+    },
+    "1376861109": {
+      "title": "The Orange Lift At Scratch Shopping Mall Library",
+      "instructions": "This Is The Orange Lift At Scratch Shopping Mall Library \nG-1 Are Library Levels\nP1-P4 Are Car Park Levels",
+      "notes": "Credit To numberboy9 For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376861109_480x360.png",
+      "author": "",
+      "shared": "2026-09-01T07:21:34.000Z"
+    },
+    "1376863249": {
+      "title": "Accord Lift Services At Scratch Shopping Mall Library",
+      "instructions": "This Is The Other Lift At Scratch Shopping Mall Library, It Is Accord Lift Services With Digital Advanced, With Digital Advanced Clearview TFT For Car, Lester Controls TC3 Indicator For Landing, Well This One Does Not Go To The Car Park Floors\nG-1 And 2 Are Library Floors",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376863249_480x360.png",
+      "author": "",
+      "shared": "2026-09-01T07:27:33.000Z"
+    },
+    "1376989090": {
+      "title": "Old Otis Lift At BHS Scratch Shopping Mall",
+      "instructions": "Credit To ElevatorFan2019 For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "notes": "So BHS Opened Back In 1990 When Scratch Shopping Mall Opened, Then In 2016 BHS Closed Down Meaning It Was Abandoned In 2020 Leaving It For Sale In 2021, And It Is Being Converted Into A New Unit",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376989090_480x360.png",
+      "author": "",
+      "shared": "2026-09-01T16:26:20.000Z"
+    },
+    "1377199446": {
+      "title": "Orona Lift At New Look Scratch Shopping Mall",
+      "instructions": "This Is The Lift At New Look Scratch Shopping Mall \nFloor G Is Women Clothing, Kids Clothing\nFloor 1 Is Shoes, Mens Clothing",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1377199446_480x360.png",
+      "author": "",
+      "shared": "2026-09-02T08:22:30.000Z"
+    },
+    "1377312245": {
+      "title": "AL Lifts At Mountain Warehouse Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Mountain Warehouse Scratch Shopping Mall, Floor G Is Equipment, Wormen, Men Clothing \nFloor 1 Is Kids Clothing, Chairs And More \nFloor 2 Is Staff Only",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1377312245_480x360.png",
+      "author": "",
+      "shared": "2026-09-02T16:03:18.000Z"
+    },
+    "1378028277": {
+      "title": "Generic Lift At Boots Car Park Scratch Shopping Mall",
+      "instructions": "Lift Information:\nInstaller: Unknown \nInstalled: 1990\nModernizer: Unknown\nModernized: 2019\nModel: ???\nMaintainer: Digital Advanced Control\nServes: G,1,2,3\nSpeed: ???\nVoice: DAC Female V3\nIndicator: DAC Clearview TFT\n\nThe Indicator On The Inside Is Not Working",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378028277_480x360.png",
+      "author": "",
+      "shared": "2026-09-04T11:02:15.000Z"
+    },
+    "1378289132": {
+      "title": "90s ALS Lift At Scratch Shopping Mall",
+      "instructions": "This ALS was built in 1990 along with the food court it’s self. This lift is from the G,MC to the Food court. It was refurbished in 2006 with a dewhurst indicator and fixtures. In 2016 The Lift Broke Down For 2 Years For Maintenance, But In 2018 Titan Lifts Replaced The Lift With Lester Controls, And They Changed The Floor Numbering, LM UM And FC",
+      "notes": "Credit To BRailFan For The Original Project\nCredit To Jon5432 For Also The Original Project\nFor Some Reason When I Listed The Floor Numbering On The COP As Upper Mall It Is Listed Main Centre For Some Reason",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378289132_480x360.png",
+      "author": "",
+      "shared": "2026-09-05T08:09:25.000Z"
+    },
+    "1378291672": {
+      "title": "Cheap Modded Otis Gen2 Lift At Scratch Shopping Mall Management",
+      "instructions": "This lift is the original otis gen 2. Sadly the lift only serves the Management Floors which are G,1 And 2 The fixtures were replaced with big dewhurst.\nAnd The Voice Is Lester Controls",
+      "notes": "Credit To BRailFan For The Original Project \nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378291672_480x360.png",
+      "author": "",
+      "shared": "2026-09-05T08:27:45.000Z"
+    },
+    "1378499177": {
+      "title": "(80TH PROJECT SPECIAL) Contracts Direct Lift At Cineworld ScratchTown Retail Park",
+      "instructions": "This Is The Lift At Cineworld Scratch Retail Park \nIt Is A Contracts Direct Lift With Digital Lift Controls With Old Dewhurst Buttons\nB Is Popcorn, Ticket Booking, Toilets\nG Is Screens 1-5\n1 Is Screens 6-10",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378499177_480x360.png",
+      "author": "",
+      "shared": "2026-09-06T09:11:31.000Z"
+    },
+    "1378549622": {
+      "title": "Orona Lift At ScratchTown Retail Park Car Park",
+      "instructions": "This Is The LIft At ScratchTown Retail Park Car Park \nG Is Exit\n1-4 Is Car Park",
+      "notes": "Credit To Abr4065_Spammm For The Original Poject\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378549622_480x360.png",
+      "author": "",
+      "shared": "2026-09-06T15:01:15.000Z"
+    },
+    "1378555185": {
+      "title": "DMG Lift At IKEA ScratchTown Retail Park",
+      "instructions": "This Is The Lift At IKEA ScratchTown Retail Park\nFloor 0 Is Exit Level, Floor -1 And 1 Are Sale Levels",
+      "notes": "Credit To greenleaves360 For The Original Project \nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378555185_480x360.png",
+      "author": "",
+      "shared": "2026-09-06T15:40:18.000Z"
+    },
+    "1379832867": {
+      "title": "Rusty Titan LIfts At B&Q ScratchTown Retail Park",
+      "instructions": "This Is The Lift At B&Q ScratchTown Retail Park It Is A Titan LIfts With Lester Controls Floor G And 1 Are Sales Levels",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1379832867_480x360.png",
+      "author": "",
+      "shared": "2026-09-10T13:13:19.000Z"
+    },
+    "1380237226": {
+      "title": "Temple Lifts At Hoopers Department Store Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Hoopers Scratch Shopping Mall \nFloor G,1 And 2 Are Sale Levels There Is Floor 3 But You Can Only Get There By Taking The Stairs, If You Don't Know What Hoopers Is, It Is A Department Store In Tunbridge Wells And Scratch Shopping Mall, Founded In 1982 By Jane And Barry Hooper, Which Opened In 1990",
+      "notes": "Credit To Abr4065_Spammm For The Original Project \nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1380237226_480x360.png",
+      "author": "",
+      "shared": "2026-09-11T15:19:22.000Z"
+    },
+    "1380658925": {
+      "title": "Schindler Eurolift MRL LIft At Upper Station Road Car Park",
+      "instructions": "This Is The Lift At Upper Station Road Car Park \nIt Serves The Even Floors, The Odd Lift Is Not Working, G Is Exit \n2,4,6,8,10 Are Car Park Levels",
+      "notes": "Credit To 16_boat For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1380658925_480x360.png",
+      "author": "",
+      "shared": "2026-09-13T08:11:55.000Z"
+    },
+    "1380667253": {
+      "title": "Temple Lifts (Lift To Street) At Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Scratch Shopping Mall\nG Is Mall\nLG Is Exit To Street",
+      "notes": "Credit To elevator905 For The Original Project\nCredit To julotleblork For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1380667253_480x360.png",
+      "author": "",
+      "shared": "2026-09-13T09:11:00.000Z"
+    },
+    "1381039709": {
+      "title": "Silghtly Modded KONE Glass Lift At Waitrose Scratch Shopping Mall (Store Lift)",
+      "instructions": "This Is The Store Lift At Waitrose Scratch Shopping Mall\nG And LG Are Sale Levels",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1381039709_480x360.png",
+      "author": "",
+      "shared": "2026-09-14T16:00:04.000Z"
+    },
+    "1381816818": {
+      "title": "Stentorgate Voice Soundbored",
+      "instructions": "Click All Of The Sounds From The Stenorgate Voice Soundbored",
+      "notes": "Credit To All Who Own The Sounds",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1381816818_480x360.png",
+      "author": "",
+      "shared": "2026-09-16T15:50:55.000Z"
+    },
+    "1382145998": {
+      "title": "(90TH PROJECT SPECIAL) Kone Ecodisc Lift At ST Garden Centre ScratchTown Retail Park",
+      "instructions": "This Is The Lift At ST Garden Centre (AKA ScratchTown Garden Centre) Floors G,1 And 2 Are Sales Levels \n3 Is Staff Only",
+      "notes": "Credit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1382145998_480x360.png",
+      "author": "",
+      "shared": "2026-09-17T12:45:08.000Z"
+    },
+    "1383045551": {
+      "title": "Refubished Stannah Side Lift At Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Scratch Shopping Mall \n-1 Is Lower Ground Car Park\nG Is Lower Mall \n1 Is Upper Mall \nIt Used To Be A 90s Stannah Then It Got Refubished By Lester Controls And They Kept The Stannah Lifts Sign On The COP",
+      "notes": "Credit To Abr405_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1383045551_480x360.png",
+      "author": "",
+      "shared": "2026-09-20T09:57:46.000Z"
+    },
+    "1384231633": {
+      "title": "Staff Lift At John Lewis/Waitrose Scratch Shopping Mall",
+      "instructions": "Hey Guys, I Have Not Made Any Projects For A Couple Of Days Because I Was Having A Break,\nThis Is The Staff Lift At John Lewis/Waitrose It Is A Generic Lift With Lester Controls",
+      "notes": "Credit To TheElevatorGuy123 For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1384231633_480x360.png",
+      "author": "",
+      "shared": "2026-09-24T15:13:00.000Z"
+    },
+    "1387071826": {
+      "title": "90s KONE TMS Modded By Horizon Lifts At Scratch Shopping Mall (Market Hall)",
+      "instructions": "This Is The Lift At Scratch Shopping Mall (Market Hall) It Used To Be A KONE TMS Lift Installed In 1990s Then It Got Modded By Horizon Lifts With The Train Station Voice, Then It Got Closed For Maintenance Then They Installed The Digital Advanced Voice, But The Voice Can't Say The Floor Property Due To Signal Issues",
+      "notes": "Credit To numberboy9 For The Original Project \nCredit To Jon5432 For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1387071826_480x360.png",
+      "author": "",
+      "shared": "2026-10-01T15:16:03.000Z"
+    },
+    "1387492385": {
+      "title": "Stannah Voice Soundbored + Chime",
+      "instructions": "Click The Sounds From Both Stannah Voices",
+      "notes": "Credit To All Who Own The Sounds",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1387492385_480x360.png",
+      "author": "",
+      "shared": "2026-10-02T16:32:54.000Z"
+    },
+    "1387752935": {
+      "title": "Stannah Maxilift At Hobbycraft Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Hobbycraft Scratch Shopping Mall Which Is A Stannah Maxilift Hydraulic Glass Lift",
+      "notes": "Credit To lukethegoldfish For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1387752935_480x360.png",
+      "author": "",
+      "shared": "2026-10-03T14:59:52.000Z"
+    },
+    "1387769784": {
+      "title": "Otis Gen2 Lift At Scratch Shopping Mall Toilets",
+      "instructions": "This Is The Lift At Scratch Shopping Mall Toliets It Is A Otis Gen2 Lift",
+      "notes": "Credit To EddyandKermitStudios For The Original Project\nCredit To Jon5432 And BRaiFan For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1387769784_480x360.png",
+      "author": "",
+      "shared": "2026-10-03T16:20:55.000Z"
+    },
+    "1390183704": {
+      "title": "DLC (Direct Lift Compeny) Lift At TGJones ScratchTown Retail Park",
+      "instructions": "This Is The Lift At TGJones ScratchTown Retail Park \nG Is Stationary, Art Supplies, Toys\nB Is Toys R Us\nTGJones Opened In Scratch Shopping Mall As WHSmith In 1990 As It Used To Have A 1990s Evens Lift, Then In 2024 It Got Modded By Pickerings Lifts With Digital Advanced Controls In 2025 WHsmith Rebranded As TGJones, In August 2026 TGJones Scratch Shopping Mall Closed Down And Moved To ScratchTown…",
+      "notes": "Credit To greenleaves360 For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1390183704_480x360.png",
+      "author": "",
+      "shared": "2026-10-10T10:02:52.000Z"
+    },
+    "1391586465": {
+      "title": "90s Stannah Lift At Nike Scratch Shopping Mall",
+      "instructions": "This Is The Lift At Nike Scratch Shopping Mall It Is A 90s Stannah With A Unknown Voice",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1391586465_480x360.png",
+      "author": "",
+      "shared": "2026-10-14T15:00:13.000Z"
+    },
+    "1391929186": {
+      "title": "Temple Lifts At ScratchTown Offices Near ScratchTown Retail Park",
+      "instructions": "This Is The Lift At ScratchTown Offices It Used To Be A 1960s KONE Lift It's Been Modded By Temple Lifts In 2018 With Lester Controls\n\nAhhhh You Found The Easter Egg:/\n\nAnyways A Secret Credit For @ZZ9PluralZAlpha And @Jon5432 For Sprites And Sounds And EVERYTHING!\n\nHope You Read It.\n\n@ElevatorSimulator58",
+      "notes": "Credit To BRailFan For The Orignal Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1391929186_480x360.png",
+      "author": "",
+      "shared": "2026-10-15T11:29:26.000Z"
+    },
+    "1392055649": {
+      "title": "CITV Logo Concept",
+      "instructions": "What If CITV Never Shutted Down And Returned To TV Screens (Channel And ITV1 Block)\nApril 2026 (ITV2 Block) \nThis Is What CITV Logo Should Of Look Like During The 2022 Rebrand",
+      "notes": "Credit To Jei_Logos For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1392055649_480x360.png",
+      "author": "",
+      "shared": "2026-10-15T16:38:43.000Z"
+    },
+    "1392878162": {
+      "title": "(100TH PROJECT SPECIAL) Stannah Platform Lift At Cineworld ScratchTown Retail Park",
+      "instructions": "We Finaliy Made It To 100 Projects Guys!, This Is The Other Lift At Cineworld ScratchTown Retail Park, It Is A Stannah Platform Lift Installed In 2009",
+      "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 & greenleaves360 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1392878162_480x360.png",
+      "author": "",
+      "shared": "2026-10-18T09:39:39.000Z"
+    },
+    "1394642238": {
+      "title": "Very Knacked Schindler Eurolift At NCP Car Park, (Located Near ScratchTown Beach)",
+      "instructions": "This Is The Lift At NCP Car Park Which Is Located Near ScratchTown Beach On Upper Parade Road, It Is A Very Knacked Schindler Eurolift, The Voice Is Muffled, The Doors Don't Sound Good Because They Are Failing",
+      "notes": "Credit To F846playz For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1394642238_480x360.png",
+      "author": "",
+      "shared": "2026-10-22T15:18:01.000Z"
+    },
+    "1395290092": {
+      "title": "Sky Living 2026 Logo Concept",
+      "instructions": "What If Sky Living Returned As A Replacement For Sky Replay",
+      "notes": "Credit To AlifeMania For The Original Project\nCredit To WeAreE1 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1395290092_480x360.png",
+      "author": "",
+      "shared": "2026-10-24T09:37:06.000Z"
+    },
+    "1395290659": {
+      "title": "Sky Living Ident 2026-Present",
+      "instructions": "What If Sky Living Replaced Sky Replay And Haved The 2026 Version Of Their Logo, This Is The Ident Concept If Sky Living Returned",
+      "notes": "Credit To MRCOOLALEX For The Original Project \nCredit To YoshiFan2021 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1395290659_480x360.png",
+      "author": "",
+      "shared": "2026-10-24T09:40:16.000Z"
+    },
+    "1395291060": {
+      "title": "Sky Replay Shutdown 30th August 2026",
+      "instructions": "What If Sky Replay Stayed In 2026 And Shutted In August 2026",
+      "notes": "Credit To MRCOOLALEX For The Original Project\nCredit To YoshiFan2021 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1395291060_480x360.png",
+      "author": "",
+      "shared": "2026-10-24T09:42:38.000Z"
+    },
+    "1395598364": {
+      "title": "Come Dine With Me Logo Concepts",
+      "instructions": "This Is The Come Dine With Me Logo Concepts I Made With Copilot (Microsoft AI) What Do You Guys Think, Let Me Know In The Comments Down Below",
+      "notes": "If You Want To Use The Images, Please Ask Premisson From Me",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1395598364_480x360.png",
+      "author": "",
+      "shared": "2026-10-25T17:44:59.000Z"
+    }
+  }
 };
