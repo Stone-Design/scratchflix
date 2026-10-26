@@ -1,0 +1,88 @@
+# ==========================================================================
+# Sync Scratch projects & publish the site
+# --------------------------------------------------------------------------
+# Runs:
+#   • every night at 03:17 UTC
+#   • whenever you push a change to the main branch
+#   • whenever you press "Run workflow" on the Actions tab
+#
+# Each run:
+#   1. fetches your shared projects from Scratch (scripts/sync-scratch.js)
+#   2. saves site/scratch-data.js back to the repo, only if something changed
+#   3. publishes the site/ folder to GitHub Pages
+#
+# If Scratch is down, step 1 fails softly: the site is still published with
+# the last good project data, and the run shows a warning.
+# ==========================================================================
+
+name: Sync Scratch projects & deploy
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to save the updated project data
+  pages: write      # to publish to GitHub Pages
+  id-token: write   # required by the Pages deploy action
+
+# Never run two deploys at once; let a running one finish
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Fetch projects from Scratch
+        id: sync
+        continue-on-error: true
+        run: node scripts/sync-scratch.js
+
+      - name: Warn if the sync failed
+        if: steps.sync.outcome == 'failure'
+        run: echo "::warning::Scratch sync failed, so the site was published with the previous project data. Open the 'Fetch projects from Scratch' step for details."
+
+      - name: Save updated project data
+        if: steps.sync.outcome == 'success'
+        run: |
+          if [ -z "$(git status --porcelain -- site/scratch-data.js)" ]; then
+            echo "No changes to save."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/scratch-data.js
+          git commit -m "Sync projects from Scratch"
+          git push
+
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Package the site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

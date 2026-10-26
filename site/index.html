@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Scratch Studio</title>
+  <meta name="description" content="A portfolio of games and animations made in Scratch." />
+  <meta name="theme-color" content="#0b0b0b" />
+
+  <!-- Inter: a clean sans-serif. Remove these 3 lines to use the system font instead. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- INTRO SETTING ---------------------------------------------------------
+       "always"  = play the "B" intro on every page load
+       "session" = play once, then skip on reloads until the tab is closed
+       "off"     = never play it
+       This runs in the <head> so a skipped intro never flashes on screen. -->
+  <script>
+    window.INTRO_MODE = "session";
+    try {
+      if (INTRO_MODE === "off" ||
+          (INTRO_MODE === "session" && sessionStorage.getItem("introSeen"))) {
+        document.documentElement.classList.add("no-intro");
+      }
+    } catch (e) { /* storage blocked: just play it */ }
+  </script>
+</head>
+<body>
+  <!-- =====================================================================
+       INTRO: the animated "B" shown while the page first loads.
+       Timing lives in styles.css (section 11); extras in intro.js.
+       Bowls come first in the markup so they sit BEHIND the stem, which
+       gives the folded-ribbon look where they meet it.
+       ===================================================================== -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__strands"></div>
+    <svg class="intro__logo" viewBox="0 0 124 160" focusable="false">
+      <defs>
+        <!-- Dark where the ribbon tucks behind the stem, bright further out -->
+        <linearGradient id="introFold" gradientUnits="userSpaceOnUse" x1="42" y1="0" x2="80" y2="0">
+          <stop offset="0" class="intro__stop-dark" />
+          <stop offset="1" class="intro__stop-bright" />
+        </linearGradient>
+      </defs>
+      <path class="intro__stroke intro__bowl intro__bowl--top"    pathLength="1" d="M30 22 H60 A29 29 0 0 1 60 80 H30" />
+      <path class="intro__stroke intro__bowl intro__bowl--bottom" pathLength="1" d="M30 80 H70 A29 29 0 0 1 70 138 H30" />
+      <path class="intro__stroke intro__stem"                     pathLength="1" d="M30 10 V150" />
+    </svg>
+  </div>
+
+  <!-- Lets keyboard users jump straight past the hero -->
+  <a class="skip-link" href="#rows">Skip to projects</a>
+
+  <!-- =====================================================================
+       NAVIGATION BAR
+       Transparent over the hero, turns solid once you scroll.
+       Category links are generated from projects.js.
+       ===================================================================== -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" id="brand">My Scratch Studio</a>
+    <nav class="nav__links" id="navLinks" aria-label="Project categories"></nav>
+  </header>
+
+  <main id="top">
+    <!-- ===================================================================
+         HERO / FEATURED PROJECT
+         Filled in by script.js from the project marked `featured: true`.
+         =================================================================== -->
+    <section class="hero" id="hero" aria-labelledby="heroTitle">
+      <div class="hero__backdrop" id="heroBackdrop" aria-hidden="true"></div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          <span class="hero__badge">Featured</span>
+          <span id="heroCategory"></span>
+        </p>
+        <h1 class="hero__title" id="heroTitle">Loading…</h1>
+        <p class="hero__desc" id="heroDesc"></p>
+
+        <div class="hero__actions">
+          <button class="btn btn--play" id="heroPlay" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg>
+            Play
+          </button>
+          <a class="btn btn--ghost" id="heroScratchLink" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+            View on Scratch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CATEGORY ROWS
+         One horizontally scrolling row per category, built by script.js.
+         =================================================================== -->
+    <div class="rows" id="rows"></div>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Made with <a href="https://scratch.mit.edu/" target="_blank" rel="noopener">Scratch</a>.
+      <span id="footerProfile"></span>
+    </p>
+    <p class="footer__small" id="footerSynced"></p>
+    <p class="footer__small">Scratch is a project of the Scratch Foundation. This site is not affiliated with Scratch.</p>
+  </footer>
+
+  <!-- =====================================================================
+       PLAY MODAL
+       Uses the native <dialog> element, which gives us the dark backdrop,
+       focus trapping and Esc-to-close for free.
+       ===================================================================== -->
+  <dialog class="modal" id="modal" aria-labelledby="modalTitle">
+    <div class="modal__header">
+      <h2 class="modal__title" id="modalTitle"></h2>
+      <button class="modal__close" id="modalClose" type="button" aria-label="Close player">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+
+    <!-- The Scratch player. Its src is set when a project opens and cleared on
+         close, so sound stops as soon as the modal shuts. -->
+    <div class="modal__stage">
+      <div class="modal__spinner" aria-hidden="true"></div>
+      <iframe
+        id="modalFrame"
+        title="Scratch project player"
+        src="about:blank"
+        allowtransparency="true"
+        allow="autoplay; fullscreen"
+      ></iframe>
+    </div>
+
+    <div class="modal__body">
+      <p class="modal__meta" id="modalMeta"></p>
+      <p class="modal__desc" id="modalDesc"></p>
+      <a class="modal__link" id="modalScratchLink" href="#" target="_blank" rel="noopener">See inside on Scratch ↗</a>
+    </div>
+  </dialog>
+
+  <!-- =====================================================================
+       CARD TEMPLATE
+       script.js clones this for every project card.
+       ===================================================================== -->
+  <template id="cardTemplate">
+    <li class="row__item">
+      <button class="card" type="button">
+        <img class="card__img" alt="" loading="lazy" decoding="async" />
+        <span class="card__fallback" aria-hidden="true"></span>
+        <span class="card__badge" hidden>New</span>
+        <span class="card__info">
+          <span class="card__play" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg>
+          </span>
+          <span class="card__title"></span>
+        </span>
+      </button>
+    </li>
+  </template>
+
+  <!-- Order matters: the intro first, then the project data (synced from
+       Scratch, then your tweaks), then the script that reads them -->
+  <script src="intro.js"></script>
+  <script src="scratch-data.js"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
