@@ -2,7 +2,7 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-10-26T21:27:00.409Z",
+  "syncedAt": "2026-10-28T09:42:58.646Z",
   "username": "BearB2021",
   "rows": [
     {
@@ -31,10 +31,10 @@ const SCRATCH_DATA = {
         "1352846471",
         "1351682722",
         "1351403312",
+        "1395598364",
         "1391929186",
         "1378291672",
-        "1376557115",
-        "1375890484"
+        "1376557115"
       ]
     },
     {
