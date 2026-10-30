@@ -2,13 +2,14 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-10-28T09:42:58.646Z",
+  "syncedAt": "2026-10-30T10:04:51.042Z",
   "username": "BearB2021",
   "rows": [
     {
       "name": "New Releases",
       "source": "newest",
       "projectIds": [
+        "1397299327",
         "1395598364",
         "1395291060",
         "1395290659",
@@ -17,8 +18,7 @@ const SCRATCH_DATA = {
         "1392878162",
         "1392055649",
         "1391929186",
-        "1391586465",
-        "1390183704"
+        "1391586465"
       ]
     },
     {
@@ -41,6 +41,7 @@ const SCRATCH_DATA = {
       "name": "All Projects",
       "source": "all",
       "projectIds": [
+        "1397299327",
         "1395598364",
         "1395291060",
         "1395290659",
@@ -393,7 +394,7 @@ const SCRATCH_DATA = {
     "1363625939": {
       "title": "Grotty Digital Lift Controls Lift At B&M Scratch Shopping Mall",
       "instructions": "In The 1990's B&M Wanted To Move Into The Unit However No Anchor Store Spaces We're Built At This Shopping Center. A Proposal Was Made To Put Down Some Anchor Store Spaces Below The Main Floor Of The Shopping Center And Later On It Was Approved. With That, B&M Moved Into The Shopping Center As One Of The 2 Anchor Stores In The Center And With That Also Came A Keighley-Schinder Elevator That Was I…",
-      "notes": "Credit To Greenleaves360 For The Orignal Project",
+      "notes": "Credit To greenleaves360 For The Orignal Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1363625939_480x360.png",
       "author": "",
       "shared": "2026-07-21T16:11:38.000Z"
@@ -989,6 +990,14 @@ const SCRATCH_DATA = {
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1395598364_480x360.png",
       "author": "",
       "shared": "2026-10-25T17:44:59.000Z"
+    },
+    "1397299327": {
+      "title": "DAB Lift At ScratchTown Bank School",
+      "instructions": "This Is The Lift At ScratchTown Bank School \nFloor G Is Classroom A & B, Staff Areas, Dining Room\nFloor 1 Is Classrooms C & D, Kitchen Rooms",
+      "notes": "Credit To numberboy9 For The Original Project\nCredit To Jon5432 For Also The Original Project, The  Disabled Badge Means That This Lift Is For Disabled People Only",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1397299327_480x360.png",
+      "author": "",
+      "shared": "2026-10-29T16:21:59.000Z"
     }
   }
 };
