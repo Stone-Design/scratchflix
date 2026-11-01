@@ -2,13 +2,14 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-10-30T10:04:51.042Z",
+  "syncedAt": "2026-11-01T10:30:35.417Z",
   "username": "BearB2021",
   "rows": [
     {
       "name": "New Releases",
       "source": "newest",
       "projectIds": [
+        "1398106334",
         "1397299327",
         "1395598364",
         "1395291060",
@@ -17,8 +18,7 @@ const SCRATCH_DATA = {
         "1394642238",
         "1392878162",
         "1392055649",
-        "1391929186",
-        "1391586465"
+        "1391929186"
       ]
     },
     {
@@ -41,6 +41,7 @@ const SCRATCH_DATA = {
       "name": "All Projects",
       "source": "all",
       "projectIds": [
+        "1398106334",
         "1397299327",
         "1395598364",
         "1395291060",
@@ -998,6 +999,14 @@ const SCRATCH_DATA = {
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1397299327_480x360.png",
       "author": "",
       "shared": "2026-10-29T16:21:59.000Z"
+    },
+    "1398106334": {
+      "title": "OTIS Rear Lift At Scratch Shopping Mall (North End Market)",
+      "instructions": "This Is The Lift At Scratch Shopping Mall North End Market, -1 Is Lower Mall \n0 Is Upper Mall And North Market \n1 Is Food Court And Exit To Car Park Level 5",
+      "notes": "Credit To lukethegoldfish For The Original Project\nCredit To Jon5432 For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1398106334_480x360.png",
+      "author": "",
+      "shared": "2026-11-01T10:21:51.000Z"
     }
   }
 };
