@@ -2,7 +2,7 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-11-01T10:30:35.417Z",
+  "syncedAt": "2026-11-09T11:36:54.058Z",
   "username": "BearB2021",
   "rows": [
     {
@@ -32,9 +32,9 @@ const SCRATCH_DATA = {
         "1351682722",
         "1351403312",
         "1395598364",
+        "1395290092",
         "1391929186",
-        "1378291672",
-        "1376557115"
+        "1378291672"
       ]
     },
     {
@@ -762,7 +762,7 @@ const SCRATCH_DATA = {
     },
     "1378028277": {
       "title": "Generic Lift At Boots Car Park Scratch Shopping Mall",
-      "instructions": "Lift Information:\nInstaller: Unknown \nInstalled: 1990\nModernizer: Unknown\nModernized: 2019\nModel: ???\nMaintainer: Digital Advanced Control\nServes: G,1,2,3\nSpeed: ???\nVoice: DAC Female V3\nIndicator: DAC Clearview TFT\n\nThe Indicator On The Inside Is Not Working",
+      "instructions": "Lift Information:\nInstaller: Unknown \nInstalled: 1990\nModernizer: Unknown\nModernized: 2019\nModel: ???\nMaintainer: Digital Advanced Control\nServes: G (Lower Sales) 1 (Upper Sales) 2 & 3 Car Park Levels\nSpeed: ???\nVoice: DAC Female V3\nIndicators: DAC Clearview TFT\n\nThe Indicator On The COP Is Working, But It Can't Show The Floors For Some Reason",
       "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1378028277_480x360.png",
       "author": "",
