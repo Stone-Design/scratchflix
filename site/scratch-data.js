@@ -2,13 +2,15 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-11-12T11:18:11.295Z",
+  "syncedAt": "2026-11-14T10:29:47.139Z",
   "username": "BearB2021",
   "rows": [
     {
       "name": "New Releases",
       "source": "newest",
       "projectIds": [
+        "1440150839",
+        "1439911888",
         "1439001812",
         "1438531147",
         "1398106334",
@@ -16,9 +18,7 @@ const SCRATCH_DATA = {
         "1395598364",
         "1395291060",
         "1395290659",
-        "1395290092",
-        "1394642238",
-        "1392878162"
+        "1395290092"
       ]
     },
     {
@@ -41,6 +41,8 @@ const SCRATCH_DATA = {
       "name": "All Projects",
       "source": "all",
       "projectIds": [
+        "1440150839",
+        "1439911888",
         "1439001812",
         "1438531147",
         "1398106334",
@@ -204,7 +206,7 @@ const SCRATCH_DATA = {
     },
     "1351403312": {
       "title": "80s Express Lift Modded By Generic With DAC Lift At Scratch Shopping Mall Car Park",
-      "instructions": "This Used To Be A 1990s Express Lift But It Got Modded By Generic With Digital Advanced Control Logic\n\nFun fact: This project has Scratch's first and likely only DAC dot matrix indicator with accurate scrolling numbers and arrows. And yes, I reused the cab, shaft, cables, counterweight and open-close pointer thing \nI Also Changed The Voice Unit In The Lift To DAC Female V3",
+      "instructions": "This Used To Be A 80s Express Lift But It Got Modded By Generic With Digital Advanced Control Logic\n\nFun fact: This project has Scratch's first and likely only DAC dot matrix indicator with accurate scrolling numbers and arrows. And yes, I reused the cab, shaft, cables, counterweight and open-close pointer thing \nI Also Changed The Voice Unit In The Lift To DAC Female V3",
       "notes": "Credit To Numberboy9 For The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1351403312_480x360.png",
       "author": "",
@@ -387,7 +389,7 @@ const SCRATCH_DATA = {
       "shared": "2026-07-16T11:31:59.000Z"
     },
     "1362970347": {
-      "title": "Otis 2000 VF Side Lift Modded By Temple Lifts At Scratch Shopping Mall",
+      "title": "Otis 2000 VF Lift Modded By Temple Lifts At Scratch Shopping Mall (Lift To All Main Floors)",
       "instructions": "This Lift Used To Be A Otis 2000 VF But It's Been Modded By Temple Lifts With Lester Controls It Now Only Serve 3 Floors Now, LM,UM And FC The Orignal Otis 2000 VF Lift I Made Got Deleted Due To It Being A Copy Of Someone Else's Project When I Credit Then, Now Anyways Enjoy The Project",
       "notes": "Credit To Abr4065_Spammm For The Orignal Project\nThe Orignal Otis 2000 VF Lift Used To Serve 5 Floors, The Basement Car Park Floors Had Been Demolished To Make Way For 25 Shopping Units Coming Soon",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1362970347_480x360.png",
@@ -547,7 +549,7 @@ const SCRATCH_DATA = {
       "shared": "2026-08-09T15:00:13.000Z"
     },
     "1369374231": {
-      "title": "(50TH PROJECT SPECIAL) Lift Specialists Side Lift At Scratch Shopping Mall",
+      "title": "(50TH PROJECT SPECIAL) Lift Specialists Ltd Lift At Scratch Shopping Mall (Lift To All Main Floors)",
       "instructions": "G Is Food Court \n1 Is Lower Mall\n2 Is Upper Mall",
       "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1369374231_480x360.png",
@@ -691,8 +693,8 @@ const SCRATCH_DATA = {
       "shared": "2026-08-28T16:51:06.000Z"
     },
     "1376144306": {
-      "title": "Lift Specialists Ltd Side Lift At Scratch Shopping Mall",
-      "instructions": "This Is The Side Lift At Scratch Shopping Mall It Is Lift Specialists Ltd, It's Got Digital Lift Controls With A Otis LCD White Indicator (Same Indicator As The Lift In Superdry)",
+      "title": "Lift Specialists Ltd Lift At Scratch Shopping Mall (Lift To All Main Floors)",
+      "instructions": "This Is The Lift At Scratch Shopping Mall It Is Lift Specialists Ltd, It's Got Digital Lift Controls With A Otis LCD White Indicator (Same Indicator As The Lift In Superdry)",
       "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376144306_480x360.png",
       "author": "",
@@ -835,7 +837,7 @@ const SCRATCH_DATA = {
       "shared": "2026-09-13T08:11:55.000Z"
     },
     "1380667253": {
-      "title": "Temple Lifts (Lift To Street) At Scratch Shopping Mall",
+      "title": "Temple Lifts At Scratch Shopping Mall (Lift To Street Level)",
       "instructions": "This Is The Lift At Scratch Shopping Mall\nG Is Mall\nLG Is Exit To Street",
       "notes": "Credit To elevator905 For The Original Project\nCredit To julotleblork For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1380667253_480x360.png",
@@ -867,7 +869,7 @@ const SCRATCH_DATA = {
       "shared": "2026-09-17T12:45:08.000Z"
     },
     "1383045551": {
-      "title": "Refubished Stannah Side Lift At Scratch Shopping Mall",
+      "title": "Refubished Stannah Lift At Scratch Shopping Mall (Lift To Shopping Floors & Lower Ground Car Park)",
       "instructions": "This Is The Lift At Scratch Shopping Mall \n-1 Is Lower Ground Car Park\nG Is Lower Mall \n1 Is Upper Mall \nIt Used To Be A 90s Stannah Then It Got Refubished By Lester Controls And They Kept The Stannah Lifts Sign On The COP",
       "notes": "Credit To Abr405_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1383045551_480x360.png",
@@ -883,7 +885,7 @@ const SCRATCH_DATA = {
       "shared": "2026-09-24T15:13:00.000Z"
     },
     "1387071826": {
-      "title": "90s KONE TMS Modded By Horizon Lifts At Scratch Shopping Mall (Market Hall)",
+      "title": "90s KONE TMS Modded By Horizon Lifts At Scratch Shopping Mall (Market Hall Side Lift)",
       "instructions": "This Is The Lift At Scratch Shopping Mall (Market Hall) It Used To Be A KONE TMS Lift Installed In 1990s Then It Got Modded By Horizon Lifts With The Train Station Voice, Then It Got Closed For Maintenance Then They Installed The Digital Advanced Voice, But The Voice Can't Say The Floor Property Due To Signal Issues",
       "notes": "Credit To numberboy9 For The Original Project \nCredit To Jon5432 For The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1387071826_480x360.png",
@@ -996,14 +998,14 @@ const SCRATCH_DATA = {
     },
     "1397299327": {
       "title": "DAB Lift At ScratchTown Bank School",
-      "instructions": "This Is The Lift At ScratchTown Bank School \nFloor G Is Classroom A & B, Staff Areas, Dining Room\nFloor 1 Is Classrooms C & D, Kitchen Rooms",
+      "instructions": "This Is The Lift At ScratchTown Bank School \nFloor G Is Classrooms A & B, Staff Areas, Dining Room\nFloor 1 Is Classrooms C & D, Kitchen Rooms",
       "notes": "Credit To numberboy9 For The Original Project\nCredit To Jon5432 For Also The Original Project, The  Disabled Badge Means That This Lift Is For Disabled People Only",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1397299327_480x360.png",
       "author": "",
       "shared": "2026-10-29T16:21:59.000Z"
     },
     "1398106334": {
-      "title": "OTIS Rear Lift At Scratch Shopping Mall (North End Market)",
+      "title": "OTIS Rear Lift At Scratch Shopping Mall (North End Market Side Lift)",
       "instructions": "This Is The Lift At Scratch Shopping Mall North End Market, -1 Is Lower Mall \n0 Is Upper Mall And North Market \n1 Is Food Court And Exit To Car Park Level 5",
       "notes": "Credit To lukethegoldfish For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1398106334_480x360.png",
@@ -1011,8 +1013,8 @@ const SCRATCH_DATA = {
       "shared": "2026-11-01T10:21:51.000Z"
     },
     "1438531147": {
-      "title": "Lift Specialists Ltd Lifts Modded By Temple Lifts At Scratch Shopping Mall",
-      "instructions": "This Is The Lift At Scratch Shopping Mall, It Used To Be A Lift Specialists Limited Lifts With Digital Lift Controls It Has Been Modded By Temple Lifts With Lester Controls",
+      "title": "Lift Specialists Ltd Lifts Modded By Temple Lifts At Scratch Shopping Mall (West Side Lift)",
+      "instructions": "This Is The Lift At Scratch Shopping Mall, It Used To Be A Lift Specialists Ltd Lifts With Digital Lift Controls It Has Been Modded By Temple Lifts With Lester Controls",
       "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1438531147_480x360.png",
       "author": "",
@@ -1025,6 +1027,22 @@ const SCRATCH_DATA = {
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1439001812_480x360.png",
       "author": "",
       "shared": "2026-11-11T16:22:13.000Z"
+    },
+    "1439911888": {
+      "title": "Schindler 5000 Lift At Scratch Shopping Mall (South Side Lift)",
+      "instructions": "This Is The South Side Lift At Scratch Shopping Mall, It Is A New Schindler 5000 Lift Replacing The Former Food Court Market Units",
+      "notes": "Credit To saidazimk For The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1439911888_480x360.png",
+      "author": "",
+      "shared": "2026-11-13T15:45:28.000Z"
+    },
+    "1440150839": {
+      "title": "DAC Clearview TFT Landing Indicator Arrows (Free To Use)",
+      "instructions": "I Recreated The Digital Advanced ClearView TFT Landing Indicator Arrows",
+      "notes": "Free To Use, Use Them On Your Digital Advanced Lift, Just By Download Them To Your Phone, Tablet, Laptop Or PC, If You Like Them, Let Me Know In The Comments Down Below",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1440150839_480x360.png",
+      "author": "",
+      "shared": "2026-11-14T09:35:56.000Z"
     }
   }
 };
