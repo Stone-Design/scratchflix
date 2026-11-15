@@ -2,7 +2,7 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-11-14T10:29:47.139Z",
+  "syncedAt": "2026-11-15T10:58:18.060Z",
   "username": "BearB2021",
   "rows": [
     {
@@ -261,7 +261,7 @@ const SCRATCH_DATA = {
       "shared": "2026-07-10T17:01:57.000Z"
     },
     "1352788019": {
-      "title": "Refubished Otis Gen2 Lift At The Bear Inn Hotel",
+      "title": "Lift-Sim 2026 Refubished Otis Gen2 Lift At The Bear Inn Hotel In ScratchTown",
       "instructions": "This Is The Lift At The Apartment, It Is A Refubished Otis Gen2 Lift With A New TFT Indicator, New Landing Arrows, It Also Got A Refubished Landing Indicator, The Old Buttons Are Still There\n\nWARNING: Using the staircase can be glitchy if the lift is in use",
       "notes": "Credit To vestalift1574 For Orignal Project\nCredit To Jon5432 For Also For The Orignal Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1352788019_480x360.png",
@@ -621,7 +621,7 @@ const SCRATCH_DATA = {
       "shared": "2026-08-24T11:56:13.000Z"
     },
     "1374788578": {
-      "title": "Generic Lift At Scratch South Train Station Platform 1 & 2",
+      "title": "Generic Lift At ScratchTown South Train Station Platform 1 & 2",
       "instructions": "This Is The Lift At Scratch South Train Station Platform 1 & 2\nIgnore The Floor Directory On The Car Because It Is Wrong, So M Is Street Level, LG Is Platform Level\nIt Is A Unknown Lift, Because I Have No Idea Who Maintenance This Lift",
       "notes": "Credit To numberboy9 For The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1374788578_480x360.png",
@@ -717,7 +717,7 @@ const SCRATCH_DATA = {
       "shared": "2026-08-31T08:18:36.000Z"
     },
     "1376563599": {
-      "title": "Old KONE At Waitrose Scratch Shopping Mall (Car Park Lift)",
+      "title": "Old KONE Lift At Waitrose Scratch Shopping Mall (Lift To Car Park)",
       "instructions": "This Is The Lift At Waitrose Car Park Scratch Shopping Mall, It Is A Old KONE Lift With The Old Stannah Voice",
       "notes": "Credit To Abr4065_Spammm For The Original Project\nCredit To Jon5432 For Also The Original Project",
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1376563599_480x360.png",
