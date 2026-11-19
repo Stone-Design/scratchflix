@@ -2,13 +2,14 @@
    it is replaced every time the sync runs. To tweak projects, use
    projects.js; for sync settings, use scratch.config.js. */
 const SCRATCH_DATA = {
-  "syncedAt": "2026-11-15T10:58:18.060Z",
+  "syncedAt": "2026-11-19T11:44:32.319Z",
   "username": "BearB2021",
   "rows": [
     {
       "name": "New Releases",
       "source": "newest",
       "projectIds": [
+        "1441863907",
         "1440150839",
         "1439911888",
         "1439001812",
@@ -17,8 +18,7 @@ const SCRATCH_DATA = {
         "1397299327",
         "1395598364",
         "1395291060",
-        "1395290659",
-        "1395290092"
+        "1395290659"
       ]
     },
     {
@@ -41,6 +41,7 @@ const SCRATCH_DATA = {
       "name": "All Projects",
       "source": "all",
       "projectIds": [
+        "1441863907",
         "1440150839",
         "1439911888",
         "1439001812",
@@ -1043,6 +1044,14 @@ const SCRATCH_DATA = {
       "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1440150839_480x360.png",
       "author": "",
       "shared": "2026-11-14T09:35:56.000Z"
+    },
+    "1441863907": {
+      "title": "KONE Glass Lift At Scratch Shopping Mall (Lift To All Main Floors)",
+      "instructions": "This Is The Lift At Scratch Shopping Mall, It Is A Kone Glass Lift With Digital Advanced",
+      "notes": "Credit To joaolucasgatinho For The Original Project\nCredit To Jon5432 & Abr4065_Spammm For Also The Original Project",
+      "thumbnail": "https://cdn2.scratch.mit.edu/get_image/project/1441863907_480x360.png",
+      "author": "",
+      "shared": "2026-11-18T16:52:09.000Z"
     }
   }
 };
